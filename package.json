@@ -5,5 +5,9 @@
   },
   "engines": {
     "node": "18.x"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "vite preview" 
   }
 }
