@@ -46,14 +46,19 @@ function selecionarForma(forma: 'pix' | 'credito') {
       <div class="form-group">
         <div style="display: flex;">
           <label for="altura" style="width: 50%;">ALTURA EM METROS</label>
-          <label for="cpf" style="width: 50%;">CPF</label>
+          <label for="cpf" style="width: 50%;">PESO (KG)</label>
         </div>
 
         <div style="display: flex;">
           <input type="text" id="altura" name="altura" placeholder="Ex: 1,75" style="width: 50%; margin-right: 5%;" required>
-          <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" style="width: 50%" required>
+          <input type="text" id="cpf" name="cpf" placeholder="80,0" style="width: 50%" required>
         </div>
 
+      </div>
+
+      <div style="margin-bottom: 20px;">
+        <label for="cpf" style="width: 100%; display: block;">CPF</label>
+        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" style="width: 100%" required>
       </div>
 
       <div class="form-group">
