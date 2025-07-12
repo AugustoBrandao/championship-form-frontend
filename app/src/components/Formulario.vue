@@ -18,7 +18,7 @@ function selecionarForma(forma: 'pix' | 'credito') {
   <br>
     <form>
       <div class="form-group">
-        <label for="nome">NOME COMPLETO</label>
+        <label for="nome" style="display: block;">NOME COMPLETO</label>
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
       </div>
 
